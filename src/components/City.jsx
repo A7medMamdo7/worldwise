@@ -1,7 +1,7 @@
 import styles from "./City.module.css";
 
 import { useParams } from "react-router-dom";
-import { useCities } from "../contexts/citiesContext";
+import { useCities } from "./contexts/CitiesContext";
 import { useEffect } from "react";
 import Spinner from "./Spinner";
 import BackButton from "./BackButton";
@@ -24,7 +24,7 @@ function City() {
     function () {
       getCity(id);
     },
-    [id]
+    [id, getCity]
   );
   // const [searchParams, setSearchParams] = useSearchParams();
   // const lat = searchParams.get("lat");
