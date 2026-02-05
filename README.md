@@ -14,7 +14,6 @@ The project demonstrates modern React development practices including global sta
 * Client-side routing with React Router
 * Global state management using Context API
 * Custom React hooks
-* Responsive UI
 
 ---
 
