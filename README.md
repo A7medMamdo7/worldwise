@@ -1,8 +1,70 @@
-# React + Vite
+# WorldWise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WorldWise is a React web application that allows users to track visited locations on an interactive map and store travel notes.
 
-Currently, two official plugins are available:
+The project demonstrates modern React development practices including global state management, custom hooks, and client-side routing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Features
+
+* Interactive map using React-Leaflet
+* Track visited locations
+* Add notes for each location
+* Client-side routing with React Router
+* Global state management using Context API
+* Custom React hooks
+* Responsive UI
+
+---
+
+## Tech Stack
+
+* React
+* React Router
+* Context API
+* Custom Hooks
+* React-Leaflet
+* CSS
+
+---
+
+## Project Structure
+
+```
+src/
+ ├── components
+ ├── contexts
+ ├── data
+ ├── hooks
+ └── pages
+```
+
+---
+
+## Getting Started
+
+Clone the repository:
+
+```
+git clone https://github.com/A7medMamdo7/worldwise.git
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the project:
+
+```
+npm run dev
+```
+
+---
+
+## Author
+
+Ahmed Mamdouh
+Frontend Developer
